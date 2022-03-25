@@ -10,9 +10,9 @@ function App() {
       <BrowserRouter>
         <nav>
           <h1>My Articles</h1>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink exact to="/">Home</NavLink>
+          <NavLink exact to="/about">About</NavLink>
+          <NavLink exact to="/contact">Contact</NavLink>
         </nav>
 
         <Switch>
